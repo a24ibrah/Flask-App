@@ -1,4 +1,4 @@
-# Flask-Docker-App
+# Flask-App
 
 ## Set up & Installation.
 
