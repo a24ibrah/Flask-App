@@ -7,8 +7,8 @@
 **Windows**
           
 ```bash
-git clone https://github.com/Dev-Elie/Flask-App.git
-cd Flask-Docker-App
+git clone https://github.com/a24ibrah/Flask-App.git
+cd Flask-App
 py -3 -m venv venv
 
 ```
@@ -16,8 +16,8 @@ py -3 -m venv venv
 **macOS/Linux**
           
 ```bash
-git clone https://github.com/Dev-Elie/Flask-App.git
-cd Flask-Docker-App
+git clone https://github.com/a24ibrah/Flask-App.git
+cd Flask-App
 python3 -m venv venv
 
 ```
