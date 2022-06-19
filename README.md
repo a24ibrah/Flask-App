@@ -7,7 +7,7 @@
 **Windows**
           
 ```bash
-git clone https://github.com/Dev-Elie/Flask-Docker-App.git
+git clone https://github.com/Dev-Elie/Flask-App.git
 cd Flask-Docker-App
 py -3 -m venv venv
 
@@ -16,7 +16,7 @@ py -3 -m venv venv
 **macOS/Linux**
           
 ```bash
-git clone https://github.com/Dev-Elie/Flask-Docker-App.git
+git clone https://github.com/Dev-Elie/Flask-App.git
 cd Flask-Docker-App
 python3 -m venv venv
 
@@ -49,12 +49,12 @@ pip install -r requirements.txt
 
 ## Create a new application from scratch
 
-### 1. Create a directory with a name **"Flask-Docker-App"**
-`mkdir Flask-Docker-App`
+### 1. Create a directory with a name **"Flask-App"**
+`mkdir Flask-App`
 
 ### 2. Navigate to the newly created directory
 
-`cd Flask-Docker-App`
+`cd Flask-App`
 
 ### 3. Create a virtual environment
 
@@ -88,7 +88,7 @@ Create two files; **app.py** and **Dockerfile**
 
 `touch app.py Dockerfile`
 
-## Congratulations! You can now proceed with the article on Dockerizing a Flask app [here](https://www.freecodecamp.org/news/how-to-dockerize-a-flask-app/).
+## You can now proceed with the article on Dockerizing a Flask app [here](https://www.freecodecamp.org/news/how-to-dockerize-a-flask-app/).
 
 </br>
 <div align="center"><h1>Follow me on Twitter</h1></div>
