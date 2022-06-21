@@ -1,15 +1,17 @@
 from flask import Flask
+from flask import jsonify
+
 app = Flask(__name__)
 
-@app.route('/')
-def hello():
-    return '<h1>Hello from a Flask app</h2>'
+# default page output!
+@app.route("/")
+def index():
+    return "Welcome in CS411!"
 
-# greeting message
-@app.route('/<username>')
-def show_user(username):
-    # Greet the user
-    return f'Hello {username} !'
+# A simple function to calculate the square of a number
+@app.route('/sqr/<int:num>', methods=['GET'])
+def disp(num):
+    return jsonify({'data': num ** 2})
 
 if __name__ == "__main__":
     app.run(debug=True)
